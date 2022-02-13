@@ -22,14 +22,21 @@ void main() {
 
   print("Enter your second number: ");
   int? secondNum = int.parse(stdin.readLineSync()!);
-  int total = fristNum + secondNum;
-  print('User input total: $fristNum + $secondNum = $total');
+  int addition = fristNum + secondNum;
+  int multiply = fristNum * secondNum;
+  int subtract = fristNum - secondNum;
+  double divide  = fristNum / secondNum;
+  int remainder   = fristNum % secondNum;
+
+  //05. problem solved
+  print('Addition: $fristNum + $secondNum = $addition');
+  print('Multiply: $fristNum * $secondNum = $multiply');
+  print('Subtract: $fristNum - $secondNum = $subtract');
+  print('Divide: $fristNum / $secondNum = $divide');
+  print('Remainder: $fristNum % $secondNum = $remainder');
 
 
 }
-
-
-
 
 void declareMethod(){
   int num = 12;
@@ -39,9 +46,5 @@ void declareMethod(){
   var nameList = ['Bipul Sarkar', 'Khogendro Sarkar','Nioty Sarkar'];
   var num_list = [1,2,3];
   var student = {'id':'110', 'name':'Bipul sarkar'};
-
-
-
-
 }
 
